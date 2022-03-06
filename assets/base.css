@@ -1,8 +1,13 @@
 /*New fonts*/
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: 'Opposit Bold';
+  src: url('Opposit-Bold.otf') format("opentype");
 }
+@font-face {
+  font-family: 'Byrd Regular';
+  src: url('Byrd-Regular.otf') format("opentype");
+}
+
 /* Color custom properties */
 
 :root,
