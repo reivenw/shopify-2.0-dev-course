@@ -1,5 +1,21 @@
 <div>
-    Weekly picks
+    <h2>
+        <div>
+            {% for product in section.settings.collection.prudct %}
+                <div>
+                    <a href="">
+                        <p>product title</p>
+                        <div>
+                            <span>
+                                price
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            {%endfor%}
+        </div>
+
+    </h2>
 </div>
 
 {% schema %}
