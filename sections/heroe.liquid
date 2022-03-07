@@ -1,13 +1,48 @@
-<div>
+{{'section-heroe.css' | asset_url | stylesheet_tag}}
+
+<div class="header-container">
     <h1>
         <img src="{{ 'hero-image.svg' | asset_url }}" />
         <span>Vintage & Thrift</span>
     </h1>
 </div>
 
+<div>
+    <a href="">
+        <div></div>
+        <div></div>
+        <h3></h3>
+    </a>
+
+</div>
+
 {% schema %}
 {
     "name":"Heroe",
+    "blocks": [
+        {
+            "type": "colletion",
+            "limit":3,
+            "name":"collection"
+            "settings":[
+                {
+                    "type":"colletion",
+                    "id":"collection",
+                    "label":"collection"
+                },
+                {
+                    "type":"image_picker",
+                    "id":"image_bg",
+                    "label":"Image Background"
+                },
+                {
+                    "type":"image_picker",
+                    "id":"image_hover",
+                    "label":"Image Hover"
+                },
+            ]
+        }
+    ],
     "presets": [
         {
             "name": "Hero" 
