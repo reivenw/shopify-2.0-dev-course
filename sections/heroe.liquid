@@ -1,4 +1,4 @@
-{{'section-heroe.css' | asset_url | stylesheet_tag}}
+{{ 'section-heroe.css' | asset_url | stylesheet_tag }}
 
 <div class="header-container">
     <h1>
@@ -13,7 +13,6 @@
         <div></div>
         <h3></h3>
     </a>
-
 </div>
 
 {% schema %}
@@ -23,12 +22,12 @@
         {
             "type": "colletion",
             "limit":3,
-            "name":"collection",
-            "settings":[ 
+            "name":"Collection",
+            "settings": [ 
                 {
                     "type":"colletion",
                     "id":"collection",
-                    "label":"collection"
+                    "label":"Collection"
                 },
                 {
                     "type":"image_picker",
