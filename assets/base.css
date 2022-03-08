@@ -2879,3 +2879,23 @@ details-disclosure > details {
     }
   }
 }
+
+.product-bubble{
+  position: absolute;
+  top: 27px;
+  left: 170px;
+  height: 95px;
+  width: 90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  z-index: 1;
+}
+
+.product-bubble > span{
+  position: absolute;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
