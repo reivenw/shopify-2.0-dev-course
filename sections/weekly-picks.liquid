@@ -1,13 +1,15 @@
-<div>
-    <h2>Weekly picks</h2>
-        <div>
+{{ 'section-weekly-picks.css' | asset_url | stylesheet_tag }}
+
+<div class="weekly-picks">
+    <h2 class="weekly-picks__header">Weekly picks</h2>
+        <div class="weekly-picks__product-ctn">
             {% for product in section.settings.collection.products %}
                 <div>
                     <a>
-                        <p>product title</p>
+                        <p>{{ product.title }}</p>
                         <div>
                             <span>
-                                price
+                                {{ product.price | money }}
                             </span>
                         </div>
                     </a>

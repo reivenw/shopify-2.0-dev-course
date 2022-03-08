@@ -1,0 +1,14 @@
+.weekly-picks{
+    margin: 50px 0 120px;
+}
+
+.weekly-picks__header{
+    text-align: center;
+    font-size: 34px;
+    position: relative;
+    color: rgb(var(--color-foreground));
+}
+.weekly-picks__product-ctn{
+    display: flex;
+    flex-direction: column;
+}
