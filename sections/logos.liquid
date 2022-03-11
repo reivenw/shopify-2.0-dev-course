@@ -1,18 +1,23 @@
 {% schema %}
-  {
-    "blocks": [
-      {
-        "type": "slide",
-        "name": "Slide",
-        "settings": [
-          {
-            "id": "slide_image",
-            "type": "image_picker",
-            "label": "Image"
-          }
+    {
+        "name": "Logos",
+        "settings":
+        [
+            {
+                "type": "image_picker",
+                "id": "feacture_collection",
+                "label": "Add logos",
+            }
+        ],
+        "presets":[
+            {
+                "name":"Logos",
+                "type": "image_picker"
+
+            }
+            
         ]
-      }
-    ]
-  }
+    }
+
 {% endschema %}
 
