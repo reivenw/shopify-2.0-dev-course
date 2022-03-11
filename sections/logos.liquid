@@ -1,6 +1,7 @@
 <div>
     hola
-    {{ block.settings.image | image_url }}
+    {{ block.settings.image | image_url: width: 2048 | image_tag }}
+
     {% for image in section.blocks.settings.image %}
                 <div>
                     <img src="{{ image.src }}" alt=""> 
