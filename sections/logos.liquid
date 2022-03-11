@@ -12,11 +12,12 @@
     </center>
     <div class="rslides_container">
       <ul class="rslides" id="slider1">
-      {%for imagen in block.settings.image %}
+        {% for block in section.blocks %}
         <li class="slideshow-item">
           <img src="{{ block.settings.image | image_url: width: 200 | image_tag }}" alt="">
         </li>
       {%endfor%}
+      
       </ul>
     </div>
   </div> 
