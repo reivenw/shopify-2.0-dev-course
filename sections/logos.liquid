@@ -1,14 +1,24 @@
-{% for block in section.blocks %}
-  {% case block.type %}
-    {% when 'slide' %}
-      <div class="slide" {{ block.shopify_attributes }}>
-        {{ block.settings.image | image_url: width: 200 | image_tag }}
-      </div>
-    ...
-  {% endcase %}
-{% endfor %}
+<script src="{{ 'logos.js.liquid' | asset_url }}" defer="defer"></script>
 
-
+<div id="slide_logos" >
+  	<div class="wrapper" > 
+		<div class="slide-logos_container" > 		
+			<ul class="slide-logos" id="slide-logos1">
+                {% for block in section.blocks %}
+                    <li>
+                        {% case block.type %}
+                          {% when 'slide' %}
+                            <div class="slide" {{ block.shopify_attributes }}>
+                              {{ block.settings.image | image_url: width: 200 | image_tag }}
+                            </div>
+                          ...
+                        {% endcase %}
+                    </li>  
+                {% endfor %}        
+            </ul>
+		</div>		
+	</div>
+</div>
 
 {% schema %}
 {
