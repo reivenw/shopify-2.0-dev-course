@@ -14,7 +14,8 @@
       <ul class="rslides" id="slider1">
         {% for block in section.blocks %}
         <li class="slideshow-item">
-          hola
+          {{ block.settings.image | image_url: width: 200 | image_tag }}
+          
         </li>
       {%endfor%}
       
