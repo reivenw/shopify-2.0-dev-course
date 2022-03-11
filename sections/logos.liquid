@@ -2,7 +2,7 @@
   {% case block.type %}
     {% when 'slide' %}
       <div class="slide" {{ block.shopify_attributes }}>
-        {{ block.settings.image | image_url: width: 2048 | image_tag }}
+        {{ block.settings.image | image_url: width: 200 | image_tag }}
       </div>
     ...
   {% endcase %}
