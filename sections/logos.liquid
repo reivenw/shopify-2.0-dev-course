@@ -1,3 +1,12 @@
+<div>
+    {% for image in section.blocks.settings.image %}
+                <div>
+                    <img src="{{ image.image_url }}" alt="">
+                </div>
+            {%endfor%}
+</div>
+
+
 {% schema %}
     {
         "name": "Logos",
