@@ -1,41 +1,40 @@
-<div>
-    hola
-    {{ block.settings.image | image_url: width: 2048 | image_tag }}
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'slide' %}
+      <div class="slide" {{ block.shopify_attributes }}>
+        {{ block.settings.image | image_url: width: 2048 | image_tag }}
+      </div>
+    ...
+  {% endcase %}
+{% endfor %}
 
-    {% for image in section.blocks.settings.image %}
-                <div>
-                    <img src="{{ image.src }}" alt=""> 
-                </div>
-            {%endfor%}
-</div> 
 
 
 {% schema %}
+{
+  "name": "Slideshow",
+  "tag": "section",
+  "class": "slideshow",
+  "settings": [
     {
-        "name": "Logos",
-        "blocks": [
-        {
-          "type": "slide",
-          "name": "t:sections.slideshow.blocks.slide.name",
-          "limit": 5,
-          "settings": [
-            {
-              "type": "image_picker",
-              "id": "image",
-              "label": "t:sections.slideshow.blocks.slide.settings.image.label"
-            }
-            ]
-        }
-        ],
-        "presets":[
-            {
-                "name":"Logos",
-                "category": "slide"  
-
-            }
-            
-        ]
-    } 
-
-{% endschema %} 
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ]
+}
+{% endschema %}
 
