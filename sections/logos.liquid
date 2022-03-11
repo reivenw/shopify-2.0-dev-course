@@ -1,14 +1,19 @@
-{% for block in section.blocks %}
-  {% case block.type %}
-    {% when 'slide' %}
-      <div class="slide" {{ block.shopify_attributes }}>
-        {{ block.settings.image | image_url: width: 200 | image_tag }}
-      </div>
-    ...
-  {% endcase %}
-{% endfor %}
-
-
+<div class="slideshow">
+  <div class="wrapper">
+    <center>
+      <h2>Titulo</h2>
+    </center>
+    <div class="rslides_container">
+      <ul class="rslides" id="slider1">
+      {%for imagen in block.settings.image %}
+        <li class="slideshow-item">
+          <img src="{{ block.settings.image | image_url: width: 200 | image_tag }}" alt="">
+        </li>
+      {%endfor%}
+      </ul>
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
