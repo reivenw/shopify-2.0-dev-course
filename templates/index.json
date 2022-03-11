@@ -41,10 +41,55 @@
       "settings": {
         "collection": "weekly-picks"
       }
+    },
+    "16469629585548d48a": {
+      "type": "logos",
+      "blocks": {
+        "63542d4f-8a88-44e0-acb0-af510179293f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-tops.png"
+          }
+        },
+        "fa358715-8619-491d-9e84-c15d8c11da54": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-work-hover.png"
+          }
+        },
+        "714543c7-2e2f-4183-9061-688b0c4594f2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-bottoms.png"
+          }
+        },
+        "8f1f6f50-2e7d-4623-967b-dca828b80a6e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-bottoms.png"
+          }
+        },
+        "406c5cb4-3b2d-4a56-8382-08856e2395ea": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-beach.png"
+          }
+        }
+      },
+      "block_order": [
+        "63542d4f-8a88-44e0-acb0-af510179293f",
+        "fa358715-8619-491d-9e84-c15d8c11da54",
+        "714543c7-2e2f-4183-9061-688b0c4594f2",
+        "8f1f6f50-2e7d-4623-967b-dca828b80a6e",
+        "406c5cb4-3b2d-4a56-8382-08856e2395ea"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "16466199888e637195",
-    "164669783054cee54f"
+    "164669783054cee54f",
+    "16469629585548d48a"
   ]
 }
