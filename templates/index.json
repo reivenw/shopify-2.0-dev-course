@@ -41,10 +41,17 @@
       "settings": {
         "collection": "weekly-picks"
       }
+    },
+    "1646962075658741cb": {
+      "type": "logos",
+      "settings": {
+        "feacture_collection": "shopify:\/\/shop_images\/collection-tops.png"
+      }
     }
   },
   "order": [
     "16466199888e637195",
-    "164669783054cee54f"
+    "164669783054cee54f",
+    "1646962075658741cb"
   ]
 }
