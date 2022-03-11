@@ -19,4 +19,4 @@ document.addEventListener('shopify:block:deselect', function(event) {
   if (parentSlideshowComponent.autoplayButtonIsSetToPlay) parentSlideshowComponent.play();
 });
 
-alert("hola");
+
