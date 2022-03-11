@@ -48,7 +48,7 @@
         "63542d4f-8a88-44e0-acb0-af510179293f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/collection-tops.png"
+            "image": "shopify:\/\/shop_images\/logo.png"
           }
         },
         "fa358715-8619-491d-9e84-c15d8c11da54": {
@@ -84,6 +84,7 @@
         "406c5cb4-3b2d-4a56-8382-08856e2395ea"
       ],
       "settings": {
+        "title": ""
       }
     }
   },
