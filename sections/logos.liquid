@@ -1,21 +1,18 @@
 {% schema %}
-    {
-        "name": "Logos",
-        "settings":
-        [
-            {
-                "type": "image_gallery",
-                "id": "feacture_collection",
-                "label": "Add logos"
-            }
-        ],
-        "presets":[
-            {
-                "name":"Logos",
-                "category": "image_gallery"
-            }
+  {
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "id": "slide_image",
+            "type": "image_picker",
+            "label": "Image"
+          }
         ]
-    }
-
+      }
+    ]
+  }
 {% endschema %}
 
