@@ -40,7 +40,10 @@
 {% endschema %}
 
 <script>
-  document.addEventListener( 'DOMContentLoaded', function () {
-    new Splide( '#image-slider' ).mount();
-  } );
+  var splide = new Splide( '.splide', {
+  perPage: 3,
+  rewind : true,
+} );
+
+splide.mount();
 </script>
