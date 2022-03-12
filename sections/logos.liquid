@@ -1,19 +1,15 @@
-
-<div id="slideshow">
-  <div class="wrapper">
-    <center>
-      <h2>Titulo</h2>
-    </center>
-    <div class="rslides_container">
-      <ul class="rslides" id="slider1">
-        {% for block in section.blocks %}
+<div class="splide">
+  <div class="splide__track">
+		<ul class="splide__list">
+			{% for block in section.blocks %}
         <li class="slideshow-item">
           {{ block.settings.image | image_url: width: 200 | image_tag }}
         </li>
-      {%endfor%}      
-      </ul>
-    </div>
-  </div> 
+      {%endfor%}
+		</ul>
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "Slideshow",
