@@ -40,9 +40,12 @@
 {% endschema %}
 
 <script>
-  var splide = new Splide( '.splide', {
+
+
+  var splide = new Splide( '#image-slider', {
+  type   : 'loop',
   perPage: 3,
-  rewind : true,
+  perMove: 1,
 } );
 
 splide.mount();
