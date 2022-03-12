@@ -86,18 +86,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-beach.png"
           }
-        },
-        "69ce8874-74ed-4eae-977f-9fc1769b1e4d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hero-denim.png"
-          }
-        },
-        "83caa1e5-4e08-4eb1-b2ee-ec1e1cdd6f92": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hero-work.png"
-          }
         }
       },
       "block_order": [
@@ -107,9 +95,7 @@
         "8f1f6f50-2e7d-4623-967b-dca828b80a6e",
         "406c5cb4-3b2d-4a56-8382-08856e2395ea",
         "c8947840-7732-4872-959e-0f845cef5cf3",
-        "d9894158-3e13-481d-9cf7-c2d982968c1a",
-        "69ce8874-74ed-4eae-977f-9fc1769b1e4d",
-        "83caa1e5-4e08-4eb1-b2ee-ec1e1cdd6f92"
+        "d9894158-3e13-481d-9cf7-c2d982968c1a"
       ],
       "settings": {
         "title": ""
