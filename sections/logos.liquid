@@ -5,15 +5,9 @@
 }
 </style>
 <script>
-var splide = new Splide( '.splide', {
-  perPage: 3,
-  rewind : true,
-} );
-
-splide.mount();
-  } );
+  new Splide( '#image-slider' ).mount();
 </script>
-<div class="splide">
+<div id="image-slider" class="splide">
   <div class="splide__track">
 		<ul class="splide__list">
 			{% for block in section.blocks %}
