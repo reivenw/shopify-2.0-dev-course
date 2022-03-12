@@ -9,7 +9,7 @@
 		<ul class="splide__list">
       {% for block in section.blocks %}
 			<li class="splide__slide">
-        {{ block.settings.image | image_url | image_tag }}
+        {{ block.settings.image | image_url: width: 800 | image_tag }}
 			</li>
       {%endfor%}
 		</ul>
