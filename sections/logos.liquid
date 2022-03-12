@@ -10,7 +10,7 @@
 <div id="image-slider" class="splide">
   <div class="splide__track">
 		<ul class="splide__list">
-			{% for block in section.blocks %}
+      {% for block in section.blocks %}
         <li class="splide__slide">
           {{ block.settings.image | image_url: width: 200 | image_tag }}
         </li>
