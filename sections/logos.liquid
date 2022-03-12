@@ -1,15 +1,20 @@
 <style>
   .splide__slide img {
-  width: 226px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 #thumbnail-slider {
   flex-direction: row;
     width: 100%;
-    margin: 0 100px 0 100px;
 }
-.splide__slide li{
-  margin-right: 50px !important;
+
+#thumbnail-slider-track {
+    display: flex;
+    justify-content: center;
+}
+.splide__slide {
+    width: 14.28% !important;
 }
 </style>
 <div id="thumbnail-slider" class="splide">
