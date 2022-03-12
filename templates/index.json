@@ -74,6 +74,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-beach.png"
           }
+        },
+        "c8947840-7732-4872-959e-0f845cef5cf3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-work.png"
+          }
         }
       },
       "block_order": [
@@ -81,7 +87,8 @@
         "fa358715-8619-491d-9e84-c15d8c11da54",
         "714543c7-2e2f-4183-9061-688b0c4594f2",
         "8f1f6f50-2e7d-4623-967b-dca828b80a6e",
-        "406c5cb4-3b2d-4a56-8382-08856e2395ea"
+        "406c5cb4-3b2d-4a56-8382-08856e2395ea",
+        "c8947840-7732-4872-959e-0f845cef5cf3"
       ],
       "settings": {
         "title": ""
