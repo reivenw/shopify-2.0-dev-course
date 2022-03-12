@@ -40,13 +40,15 @@
 {% endschema %}
 
 <script>
-
-
-  var splide = new Splide( '#image-slider', {
+  document.addEventListener( 'DOMContentLoaded', function () {
+    var splide = new Splide( '#image-slider', {
   type   : 'loop',
   perPage: 3,
   perMove: 1,
-} );
+} ); 
+  } );
+
+
 
 splide.mount();
 </script>
