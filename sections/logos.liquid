@@ -1,3 +1,9 @@
+<style>
+  .splide__slide img {
+  width: 100%;
+  height: auto;
+}
+</style>
 <script>
 var splide = new Splide( '.splide', {
   perPage: 3,
@@ -11,7 +17,7 @@ splide.mount();
   <div class="splide__track">
 		<ul class="splide__list">
 			{% for block in section.blocks %}
-        <li class="slideshow-item">
+        <li class="splide__slide">
           {{ block.settings.image | image_url: width: 200 | image_tag }}
         </li>
       {%endfor%}
