@@ -86,6 +86,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/tecnifibre.png"
           }
+        },
+        "9510d353-d6f0-4282-b4fc-de646e8b36ec": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tecnifibre.png"
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "8f1f6f50-2e7d-4623-967b-dca828b80a6e",
         "406c5cb4-3b2d-4a56-8382-08856e2395ea",
         "c8947840-7732-4872-959e-0f845cef5cf3",
-        "d9894158-3e13-481d-9cf7-c2d982968c1a"
+        "d9894158-3e13-481d-9cf7-c2d982968c1a",
+        "9510d353-d6f0-4282-b4fc-de646e8b36ec"
       ],
       "settings": {
         "title": ""
