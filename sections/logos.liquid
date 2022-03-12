@@ -5,7 +5,9 @@
 }
 </style>
 <script>
-  new Splide( '#image-slider' ).mount();
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-slider' ).mount();
+  } );
 </script>
 <div id="image-slider" class="splide">
   <div class="splide__track">
