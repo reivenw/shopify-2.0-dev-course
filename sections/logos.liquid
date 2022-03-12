@@ -1,15 +1,15 @@
-
-<div id="image-slider" class="splide">
+<div id="thumbnail-slider" class="splide">
   <div class="splide__track">
 		<ul class="splide__list">
       {% for block in section.blocks %}
-        <li class="splide__slide">
-          {{ block.settings.image | image_url: width: 200 | image_tag }}
-        </li>
+			<li class="splide__slide">
+        {{ block.settings.image | image_url: width: 200 | image_tag }}
+			</li>
       {%endfor%}
 		</ul>
   </div>
 </div>
+
 
 {% schema %}
 {
@@ -41,7 +41,11 @@
 
 <script>
   document.addEventListener( 'DOMContentLoaded', function () {
-    new Splide( '#image-slider' ).mount();
-  } );
-  
+  new Splide( '#thumbnail-slider', {
+		fixedWidth: 100,
+		gap       : 10,
+		rewind    : true,
+		pagination: false,
+  } ).mount();
+} );
 </script>
