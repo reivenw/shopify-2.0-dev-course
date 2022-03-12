@@ -41,14 +41,7 @@
 
 <script>
   document.addEventListener( 'DOMContentLoaded', function () {
-    var splide = new Splide( '#image-slider', {
-  type   : 'loop',
-  perPage: 3,
-  perMove: 1,
-} ); 
+    new Splide( '#image-slider' ).mount();
   } );
-
-
-
-splide.mount();
+  
 </script>
