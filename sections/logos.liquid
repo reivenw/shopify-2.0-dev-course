@@ -62,10 +62,9 @@
 <script>
   document.addEventListener( 'DOMContentLoaded', function () {
   new Splide( '#thumbnail-slider', {
-		fixedWidth: 100,
-		gap       : 10,
-		rewind    : true,
-		pagination: false,
+		type   : 'loop',
+  perPage: 3,
+  perMove: 1,
   } ).mount();
 } );
 </script>
