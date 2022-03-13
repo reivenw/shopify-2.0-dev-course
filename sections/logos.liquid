@@ -68,6 +68,15 @@
 		type   : 'loop',
   perPage: 7,
   perMove: 1,
+    intersection: {
+    rootMargin: '200px',
+    inView: {
+      keyboard: true,
+    },
+    outView: {
+      keyboard: false,
+    },
+  },
   } ).mount();
 } );
 </script>
